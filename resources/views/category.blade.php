@@ -1,3 +1,6 @@
+@extedns('welcome')
+
+@section('content')
 <h4>{{$category->name}}</h4>
 </ul>
 @foreach ($category->articles as $article)
@@ -16,3 +19,5 @@
     <button type="submit">Add article </button>
     <button type="reset">Cancel</button>
 </form>
+
+@stop
