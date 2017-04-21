@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="{{asset('main.css')}}">
         <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <script src ="{{asset('jquery.min.js')}}" defer=></script>
+        <script src ="{{asset('script.js')}}" defer=></script>
     </head>  
     <body class="container-fluid">
         <div class="container-fluid">
@@ -30,6 +32,7 @@
         </div>
         <footer>
             
-        </footer>       
+        </footer>    
     </body> 
+    <button id="bgChanger" type="button" class="btn btn-danger" onclick="changeBg('{{asset('zdjecie.jpg')}}','{{asset('bp.jpg')}}')" >change bg</button>
 </html>

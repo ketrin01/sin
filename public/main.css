@@ -1,5 +1,5 @@
 body{
-    background: url('bp.jpg') fixed;
+    background: url('bp.jpg') no-repeat fixed;
         background-size: cover;
 }
 .main-menu {
@@ -24,4 +24,8 @@ body{
 .klaseczka:hover {
     opacity: 0.5;
 }
-
+#bgchanger {
+    position: absolute;
+    top : 10px;
+    right : 10px;
+}
