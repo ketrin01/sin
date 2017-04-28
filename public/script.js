@@ -10,6 +10,7 @@ function changeBg (url, originUrl){
         $("body").css ("background", 'url('+originUrl+') no-repeat fixed').css("background-size", "cover");
 bgmode= 0;
 }
+}
 
 function validInput (){
     var input = $('#name').val();
@@ -18,4 +19,5 @@ function validInput (){
     } else {
         $('button[type=sumbit]').attr('disabled', 'disabled');
     }
-    }}
+    }
+    

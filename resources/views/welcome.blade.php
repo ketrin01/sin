@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{asset('main.css')}}">
         <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
         <script src ="{{asset('jquery.min.js')}}" defer=></script>
-        <script src ="{{asset('script.js')}}" defer=></script>
+        <script src ="{{asset('script.js')}}"></script>
     </head>  
     <body class="container-fluid">
         <div class="container-fluid">

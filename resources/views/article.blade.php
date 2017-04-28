@@ -1,8 +1,10 @@
 
-<h4> {{$article->title}}</h4>
+<h4> {{$articles->title}}</h4>
 <ul> 
-@foreach ($article->articles as $article)
-<li> {{$article->content}}</li>
-@endforeach
+<li> {{$articles->content}}</li>
 </ul>
-
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{asset('xx1.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    </head>

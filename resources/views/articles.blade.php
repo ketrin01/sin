@@ -12,3 +12,8 @@
     <button type="submit">Add category</button>
     <button type='reset'>Cancel</button>
 </form>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{asset('xx1.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    </head>

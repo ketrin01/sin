@@ -1,4 +1,4 @@
-@extedns('welcome')
+
 <h4>{{$category->name}}</h4>
 </ul>
 @foreach ($category->articles as $article)
@@ -12,7 +12,11 @@
 <li>{{$article->title}}</li>
 @endforeach
 </ul>
-
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{asset('xx1.css')}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    </head>
 <form class="category.form" method="POST" action="{{route("article.post")}}">
     <div claas="form-group">
         <label>Title</label>
